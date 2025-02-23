@@ -6,7 +6,7 @@
 /*   By: rcannars <rcannars@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/05 15:00:21 by rcannars          #+#    #+#             */
-/*   Updated: 2025/02/23 14:27:49 by rcannars         ###   ########.fr       */
+/*   Updated: 2025/02/23 15:42:34 by rcannars         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -99,7 +99,6 @@ void	parse_args(t_pipex *pipex, int argc, char **argv, char **envp)
 	pipex->cmd_args[i] = NULL;
 	pipex->cmd_paths[i] = NULL;
 }
-
 /* void	parse_args(t_pipex *pipex, int argc, char **argv, char **envp)
 {
 	int	i;

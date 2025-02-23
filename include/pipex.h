@@ -6,7 +6,7 @@
 /*   By: rcannars <rcannars@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/05 15:00:36 by rcannars          #+#    #+#             */
-/*   Updated: 2025/02/23 14:25:51 by rcannars         ###   ########.fr       */
+/*   Updated: 2025/02/23 15:42:31 by rcannars         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@
 # include "../libft/includes/libft.h"
 # include <errno.h>
 # include <fcntl.h>
+# include <stdbool.h>
 # include <stdlib.h>
 # include <string.h>
 # include <sys/wait.h>
